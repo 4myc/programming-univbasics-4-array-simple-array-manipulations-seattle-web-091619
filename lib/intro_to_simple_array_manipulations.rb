@@ -56,7 +56,7 @@ def using_delete(array, element)
   no_offense_steven = array.delete("Steven")
 end
 
-def using_delete_at(array)
+def using_delete_at(array, element)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
   deleted_robot = array.delete_at(2)
 end
